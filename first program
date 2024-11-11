@@ -1,0 +1,11 @@
+public class MethodsExample
+public int addNumber(int x,int y){
+int addition = x + y;
+return addition;
+}
+public static void main(String args[])
+int i=20;
+int j=10;
+MethodsExample obj = new MethodsExample();
+int result = obj addNumber(i,j);
+System.out.println("Sum of x+y=", + result);
